@@ -49,6 +49,12 @@ A metodologia adotada no projeto seguiu as seguintes etapas:
 
 # Conclusão
 
+O modelo cinético apresentou o melhor desempenho, com baixos erros em todas as profundidades, refletindo sua forte base físico-química e aderência aos dados experimentais.
+
+Os modelos de Machine Learning exibiram erros mais elevados, o que é esperado em um cenário de predição mais geral e com conjunto de dados limitado. Ainda assim, essas abordagens mostram potencial de aplicação com maior volume de dados e novas variáveis ambientais.
+
+O estudo evidencia que a integração entre modelos cinéticos e Machine Learning pode ser uma estratégia promissora para a modelagem de processos ambientais.
+
 # Limitações
 
 # Próximos Passos
