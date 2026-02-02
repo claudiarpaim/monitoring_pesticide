@@ -58,7 +58,7 @@ Os resultados indicaram diferenças relevantes no desempenho entre o modelo cin�
 
 De forma geral:
 
-- Os modelos de ML apresentaram redução nos valores de erro (RMSE e MAE) em comparação ao modelo cinético;
+- Os modelos de ML apresentaram erros (RMSE e MAE) superiores ao modelo cinético. A padronização das variáveis não alterou os resultados das regressões linear e polinomial, indicando que a diferença observada não está relacionada à escala dos dados;
 - Modelos não lineares, como o Random Forest, demonstraram melhor capacidade de capturar relações complexas entre as variáveis;
 - A Regressão Linear apresentou desempenho inferior aos modelos mais flexíveis, mas manteve alta interpretabilidade.
 
