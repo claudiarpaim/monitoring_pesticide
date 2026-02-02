@@ -1,4 +1,4 @@
-# Monitoramento de Pesticida em Solo Agrícola
+# Mancozebe Degradation Modeling: Kinetic Model vs. Machine Learning
 
 <p align="center">
   <img src="images/capa.png" alt="Capa do projeto" width="700"/>
@@ -125,3 +125,50 @@ Como trabalhos futuros, destacam-se:
 - Avaliação de modelos adicionais, como Gradient Boosting e XGBoost;
 - Aplicação de técnicas de interpretação de modelos (ex.: SHAP);
 - Integração entre modelos cinéticos e Machine Learning em abordagens híbridas.
+
+# Estrutura do Repositório
+
+monitoring_pesticide/
+│
+├── README.md
+│
+├── data/
+│   └── raw/
+│       └── mancozebe_experimentals.csv
+│
+├── images/
+│   ├── capa.png
+│   ├── ajuste_modelo_cinetico.png
+│   ├── concentracao_profundidade.png
+│   ├── modelo_cinetico_x_ml.png
+│   └── erro_profundidade.png
+│
+├── notebooks/
+│   ├── 00_setup_e_dataset.ipynb
+│   ├── 01_EDA.ipynb
+│   ├── 02_Modelo_Cinetico.ipynb
+│   └── 03_modelos_machine_learning.ipynb
+│
+└── requirements.txt
+
+# Como executar o Projeto
+
+git clone https://github.com/claudiarpaim/monitoring_pesticide.git
+cd monitoring_pesticide
+pip install -r requirements.txt
+
+# Autora
+
+## Cláudia Rosa
+Cientista de Dados Júnior | Química Ambiental
+
+LinkedIn: https://www.linkedin.com/in/claudiarpaim  
+Email: claudiarpaim@gmail.com
+
+
+
+
+
+
+
+
