@@ -11,7 +11,7 @@ A modelagem de processos ambientais frequentemente utiliza modelos cinéticos ba
 Com o avanço das técnicas de Machine Learning (ML), surge a possibilidade de utilizar modelos orientados por dados para complementar ou comparar o desempenho de modelos tradicionais. Neste contexto, este projeto investiga a aplicação de modelos de ML para prever o comportamento do fungicida mancozebe, comparando seus resultados com um modelo cinético clássico.
 
 # Objetivo
-O objetivo principal deste projeto é:
+O objetivo principal deste projeto é:                                                            
 Comparar o desempenho de um modelo cinético tradicional com modelos de Machine Learning na predição da variável alvo relacionada à degradação do mancozebe, avaliando se os modelos de ML são capazes de representar ou superar a abordagem cinética.
 
 # Dataset
@@ -91,13 +91,13 @@ Os resultados reforçam o potencial do Machine Learning como ferramenta compleme
   <small><strong>Figura 3.</strong> Gráfico de barras comparando o erro quadrático médio (RMSE) do modelo cinético e dos modelos de Machine Learning</small>
 </p>
 
-## 🔹Análise do erro dos modelos de ML
+## 🔹Análise dos erros do modelo Random Forest
 
 <p align="center">
   <img src="images/erro_profundidade.png" width="600"/>
 </p>
 <p align="center">
-  <small><strong>Figura 4.</strong> Distribuição dos erros (MAE e RMSE) por profundidade do solo</small>
+  <small><strong>Figura 4.</strong> Distribuição dos erros (MAE e RMSE) por profundidade para o modelo Random Forest</small>
 </p>
 
 # Conclusão
@@ -128,41 +128,41 @@ Como trabalhos futuros, destacam-se:
 
 # Estrutura do Repositório
 
-monitoring_pesticide/
+monitoring_pesticide/                                         
 │
-├── README.md
+├── README.md                                      
 │
-├── data/
-│   └── raw/
-│       └── mancozebe_experimentals.csv
+├── data/                      
+│   └── raw/                   
+│       └── mancozebe_experimentals.csv                                    
 │
-├── images/
-│   ├── capa.png
-│   ├── ajuste_modelo_cinetico.png
-│   ├── concentracao_profundidade.png
-│   ├── modelo_cinetico_x_ml.png
-│   └── erro_profundidade.png
+├── images/                                    
+│   ├── capa.png                                
+│   ├── ajuste_modelo_cinetico.png                              
+│   ├── concentracao_profundidade.png                            
+│   ├── modelo_cinetico_x_ml.png                              
+│   └── erro_profundidade.png                            
 │
-├── notebooks/
-│   ├── 00_setup_e_dataset.ipynb
-│   ├── 01_EDA.ipynb
-│   ├── 02_Modelo_Cinetico.ipynb
-│   └── 03_modelos_machine_learning.ipynb
+├── notebooks/                           
+│   ├── 00_setup_e_dataset.ipynb                                 
+│   ├── 01_EDA.ipynb                                 
+│   ├── 02_Modelo_Cinetico.ipynb                                  
+│   └── 03_modelos_machine_learning.ipynb                       
 │
-└── requirements.txt
+└── requirements.txt                                  
 
 # Como executar o Projeto
 
-git clone https://github.com/claudiarpaim/monitoring_pesticide.git
-cd monitoring_pesticide
-pip install -r requirements.txt
+git clone https://github.com/claudiarpaim/monitoring_pesticide.git                               
+cd monitoring_pesticide                           
+pip install -r requirements.txt                                          
 
 # Autora
 
 ## Cláudia Rosa
 Cientista de Dados Júnior | Química Ambiental
 
-LinkedIn: https://www.linkedin.com/in/claudiarpaim  
+LinkedIn: https://www.linkedin.com/in/claudia-rosa-datascience                                     
 Email: claudiarpaim@gmail.com
 
 
